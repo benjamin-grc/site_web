@@ -1,0 +1,53 @@
+
+
+body {
+  background-color:#ffd6b6;
+  padding-top: 10em;
+  font-family : "Courier New";
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color : #5c2626;
+    font-size: 40px;
+    text-decoration: none;
+    font-family : "Courier New";
+    margin-bottom: 50px;
+    }
+
+p {
+    font-size: 26px;
+    text-justify: inter-word;
+    text-align: justify;
+    color : #5c2626;
+}
+
+
+img{
+    border-radius: 17px;    /* optionnel : coins arrondis */
+    width: 180px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    /* justify-content: center; */
+    gap: 5%;
+    align-items: center;
+
+    text-justify: inter-word;
+    text-align: justify;
+    margin-bottom: 60px;
+    margin-left: 30px;
+}
+
+.presentation {
+
+    margin-left:30px;
+    margin-right:30px;
+
+    }
+
