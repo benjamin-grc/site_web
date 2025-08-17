@@ -1,0 +1,63 @@
+body {
+  background-color:#ffd6b6;
+  padding-top:5em;
+  font-family : "Courier New";
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color : #5c2626;
+    font-size: 36px;
+    text-decoration: none; 
+    font-family : "Courier New";
+    margin-bottom: 50px;
+    }
+
+
+.link {
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: normal;
+    color : #5c2626;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    border-radius: 12px;
+    padding: 5px 10px;
+    }
+
+.link:hover {
+  color: #ffd6b6;
+  box-shadow: inset 800px 0 0 0 #b74242;;
+}
+
+
+p {
+    font-size: 22px;
+    text-justify: inter-word;
+    text-align: justify;
+    color : #b74242;
+}
+
+.div1 {
+
+    margin: 70px 70px 70px 70px;
+
+    }
+
+/* L'image passe à gauche et le texte s'enroule autour */
+.div1 img {
+    float: left;
+    margin: 0 12px 8px 0;    /* petit espace à droite et en bas */
+    width: 150px;          /* largeur identique pour toutes */
+    height: 150px;         /* hauteur identique pour toutes */
+    object-fit: cover;     /* recadre l’image au lieu de l’étirer */
+    border-radius: 8px;    /* optionnel : coins arrondis */
+}
+
+/* Clearfix pour éviter que le conteneur ne s’écrase */
+.div1::after {
+  content: "";
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,50 @@
+
+
+body {
+  background-color:#ffd6b6;
+  text-align: center;
+  padding-top:10em;
+  font-family : "Courier New";
+}
+
+
+.typewrite{
+    font-weight: normal;
+    color : #5c2626;
+    font-size: 50px;
+    text-decoration: none; 
+    font-family : "Courier New"
+}
+
+.pr1 {
+    
+    font-family : "Courier New";
+    text-align : justify;
+    color : #5c2626;
+    font-size: 26px;
+    margin : 50px 50px 50px 50px;
+    }
+
+
+.btn_group .button {
+  background-color:#ea7362;
+  border: none;
+  color: #5c2626;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  float: center;
+  font-size: 24px;
+  font-family: "Courier New";
+  border-radius: 12px;
+  transition-duration: 0.7s;
+  margin: 20px;
+}
+
+
+.button:hover {
+  background-color: #b74242;
+  color: #ffd6b6;
+}
