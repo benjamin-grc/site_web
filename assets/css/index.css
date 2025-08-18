@@ -1,51 +1,50 @@
 
 
 body {
-  background-color:#ffd6b6;
+  background-color: #ffd6b6;
   text-align: center;
-  padding-top:10em;
-  font-family : "Courier New";
+  padding-top: clamp(5em, 10vw, 10em); /* s’adapte à la taille écran */
+  font-family: "Courier New", monospace;
 }
 
 
-.typewrite{
+.typewrite {
     font-weight: normal;
-    color : #5c2626;
-    font-size: 50px;
-    text-decoration: none; 
-    font-family : "Courier New"
+    color: #5c2626;
+    font-size: clamp(24px, 8vw, 50px);
+    text-decoration: none;
 }
+
 
 .pr1 {
-    
-    font-family : "Courier New";
-    text-align : justify;
-    color : #5c2626;
-    font-size: 26px;
-    margin : 50px 50px 50px 50px;
-    }
+    text-align: justify;
+    color: #5c2626;
+    font-size: clamp(20px, 2vmax, 30px);
+    margin: 3rem auto;
+    max-width: 85%; /* limite largeur pour meilleure lisibilité */
+}
+
 
 
 .btn_group .button {
-  background-color:#ea7362;
-  border: none;
-  color: #5c2626;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  float: center;
-  font-size: 24px;
-  font-family: "Courier New";
-  border-radius: 12px;
-  transition-duration: 0.7s;
-  margin: 20px;
+    background-color: #ea7362;
+    border: none;
+    color: #5c2626;
+    padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
+    text-align: center;
+    text-decoration: none;
+    font-family: "Courier New", monospace;
+    display: inline-block;
+    cursor: pointer;
+    font-size: clamp(16px, 2vw, 24px);
+    border-radius: 12px;
+    transition: 0.6s ease;
+    margin: 2rem;
 }
-
 
 .button:hover {
   background-color: #b74242;
+  transform: scale(1.1);
   color: #ffd6b6;
 }
 
