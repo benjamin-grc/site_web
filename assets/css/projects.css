@@ -48,7 +48,7 @@ p {
 }
 
 
-.div1 {
+.container {
     max-width: 850px;   /* largeur maximale */
     width: 90%;         /* prend 90% de l’écran si plus petit */
     margin: 2rem auto;  /* centré horizontalement, marge verticale */
@@ -56,7 +56,7 @@ p {
 
 
 /* L'image passe à gauche et le texte s'enroule autour */
-.div1 img {
+.container img {
     float: left;
     margin: 0 1rem 1rem 0;
     width: 150px;          /* largeur identique pour toutes */
@@ -68,7 +68,7 @@ p {
 
 
 /* Clearfix pour éviter que le conteneur ne s’écrase */
-.div1::after {
+.container::after {
   content: "";
   display: block;
   clear: both;

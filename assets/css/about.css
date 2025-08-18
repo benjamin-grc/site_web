@@ -1,22 +1,24 @@
-
-
 body {
-  background-color:#ffd6b6;
-  padding-top: 10em;
-  font-family : "Courier New";
+    background-color:#ffd6b6;
+    padding-top: 5em;
+    font-family : "Courier New", monospace;
 }
 
 
 
-h1 {
+.container {
+    max-width: 900px;   /* largeur maximale */
+    width: 90%;         /* prend 90% de l’écran si plus petit */
+    margin: 0.8rem auto;  /* centré horizontalement, marge verticale */
+}
+
+
+.header h1 {
     font-size: clamp(24px, 6vw, 40px); /* adaptable selon largeur écran */
-    margin-bottom: 2rem; /* margin relative */
     text-align: center;
     font-weight: normal;
     color: #5c2626;
     text-decoration: none;
-    font-family: "Courier New",monospace;
-    margin-bottom: 3rem;  /* margin relative à la taille de la police */
 }
 
 
@@ -24,40 +26,26 @@ h1 {
 
 p {
     font-size: clamp(16px, 3vmax, 28px);
-    text-justify: inter-word;
     text-align: justify;
     color : #5c2626;
     margin-bottom: 1.5rem;
 }
 
 
-
-img {
-  border-radius: 17px;
-  width: 100%;      /* l’image prend 100% de son conteneur */
-  max-width: 200px; /* mais jamais plus de 180px */
-  height: auto;     /* conserve les proportions */
+.header img {
+    border-radius: 17px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
 }
+
 
 .header {
     display: flex;
     flex-direction: row;
-    /* background-color: red; */
-    /* justify-content: center; */
-    gap: 5%;
+    gap: 1rem;
     align-items: center;
-
-    text-justify: inter-word;
-    text-align: justify;
     margin-bottom: 7%;
-    margin-left: 5%;
-    margin-right: 5%;
 }
-
-.presentation {
-
-    margin-left:5%;
-    margin-right:5%;
-
-    }
 
