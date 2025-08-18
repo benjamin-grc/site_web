@@ -73,3 +73,22 @@ p {
   display: block;
   clear: both;
 }
+
+.btn-retour {
+    display: inline-block;
+    background: #ea7362;
+    color: #ffd6b6;
+    padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
+    text-decoration: none;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: clamp(18px, 2vw, 24px);
+    font-family: "Courier New", monospace;
+    transition: 0.5s ease;
+}
+
+.btn-retour:hover {
+  background: #b74242;
+  color: #ffd6b6;
+  transform: scale(1.1);
+}
