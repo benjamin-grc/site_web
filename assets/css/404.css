@@ -10,43 +10,39 @@ body {
 
 }
 
-h1{
+h1 {
+    font-size: clamp(30px, 8vw, 70px); /* minimum 36px, max 70px, adapté à la largeur */
+    -webkit-text-fill-color: #ffd6b6;
+    -webkit-text-stroke: 3px #5c2626;
+}
 
-    color:#ea7362;
-    font-size: 70px;
-    -webkit-text-fill-color: #ffd6b6; /* Will override color (regardless of order) */
-    -webkit-text-stroke: 4px #5c2626;
-    }
-
-
-h2{
-
-    color:#ffd6b6;
-    font-size: 50px;
+h2 {
+    font-size: clamp(24px, 6vw, 50px);
+    color: #ffd6b6;
     font-weight: normal;
-
-    }
+}
 
 
 .button {
-  background-color:#ea7362;
-  border: none;
-  color: #5c2626;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  float: center;
-  font-size: 24px;
-  font-family: "Courier New";
-  border-radius: 12px;
-  transition-duration: 0.7s;
-  margin: 20px;
+    background-color: #ea7362;
+    border: none;
+    color: #5c2626;
+    padding: 1rem 2rem;          /* unités relatives plus adaptées */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: clamp(16px, 2vw, 24px); /* taille responsive */
+    font-family: "Courier New";
+    border-radius: 12px;
+    transition: 0.7s;
+    margin: 1rem auto;           /* centré horizontalement */
+    float: none;                 /* float inutile avec display inline-block */
 }
 
 
 .button:hover {
   background-color: #b74242;
   color: #ffd6b6;
+  transform: scale(1.1);
 }
