@@ -54,3 +54,20 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.10em solid #704D33}";
         document.body.appendChild(css);
     };
+
+
+
+new TypeIt("#asyncExec", {
+  waitUntilVisible: true,
+})
+  .type("Cette page n'existe pas ")
+  .exec(async () => {
+    //-- Return a promise that resolves after something happens.
+    await new Promise((resolve, reject) => {
+      setTimeout(() => {
+        return resolve();
+      }, 2000);
+    });
+  })
+  .type("(encore).")
+  .go();
