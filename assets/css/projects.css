@@ -1,7 +1,14 @@
+
+
+
 body {
-  background-color:#ffd6b6;
-  padding-top:5em;
-  font-family : "Courier New";
+    background-color: #ffd6b6;
+    font-family: "Courier New";
+    display: flex;              /* active Flexbox */
+    flex-direction: column;     /* empile verticalement les éléments */
+    align-items: center;        /* centre horizontalement tout */
+    padding: 2rem 1rem;         /* marge intérieure sur tous les côtés */
+    gap: 1rem;                  /* espace vertical entre les éléments */
 }
 
 h1 {
@@ -33,27 +40,32 @@ h1 {
 
 
 p {
+    font-size: clamp(16px, 2vmax, 22px); /* texte responsive */
     font-size: 22px;
     text-justify: inter-word;
     text-align: justify;
     color : #b74242;
 }
 
+
 .div1 {
+    max-width: 850px;   /* largeur maximale */
+    width: 90%;         /* prend 90% de l’écran si plus petit */
+    margin: 2rem auto;  /* centré horizontalement, marge verticale */
+}
 
-    margin: 70px 70px 70px 70px;
-
-    }
 
 /* L'image passe à gauche et le texte s'enroule autour */
 .div1 img {
     float: left;
-    margin: 0 12px 8px 0;    /* petit espace à droite et en bas */
+    margin: 0 1rem 1rem 0;
     width: 150px;          /* largeur identique pour toutes */
     height: 150px;         /* hauteur identique pour toutes */
     object-fit: cover;     /* recadre l’image au lieu de l’étirer */
     border-radius: 8px;    /* optionnel : coins arrondis */
 }
+
+
 
 /* Clearfix pour éviter que le conteneur ne s’écrase */
 .div1::after {
