@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /config/
+Disallow: /private/
+
+# Autoriser tout le reste
+Allow: /
+
+Sitemap: https://benjamingarcia.fr/sitemap.xml
