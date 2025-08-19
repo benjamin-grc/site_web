@@ -11,8 +11,8 @@
     align-items: center;
     position: fixed;
     transform: scale(1); /* état normal */
-    top: 20px;
-    right: 20px;
+    bottom: 20px;
+    left: 20px;
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* transition pour plusieurs propriétés */
   }
   

@@ -1,11 +1,94 @@
 
 
 body {
+
   background-color: var(--bg-color);
-  text-align: center;
-  padding-top: clamp(5em, 10vw, 10em); /* s’adapte à la taille écran */
+  min-height: 100vh; /* s’adapte à la taille écran */
   font-family: "Courier New", monospace;
 }
+
+nav{
+  background-color: var(--bg-color); 
+  /*backdrop-filter: blur(40px);*/
+}
+
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav li{
+  height: 50px;
+}
+
+nav a{
+
+  height: 100%;
+  padding: 0% 30px;
+  text-decoration: none;
+  border-radius: 12px;
+  margin: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  background-color: var(--btn-color);
+  transition: 0.6s ease;
+}
+
+nav a:hover{
+  background-color: var(--btn-hcolor);  
+  color: var(--bg-color);
+  transform: scale(1.2);
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: blue 0.8; 
+  backdrop-filter: blur(40px);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+
+.sidebar li{
+  width: 100%;
+}
+
+.sidebar a{
+  width: 100%;
+}
+
+.menu-btn{
+  display: none;
+}
+
+.container{
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  text-align: justify;
+
+}
+
+.container h1{
+
+  text-align: center;
+
+}
+
 
 .typewrite {
     font-weight: normal;
@@ -15,38 +98,27 @@ body {
 }
 
 
-.pr1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
+.pr1 {    
     color: var(--text-color);
     font-size: clamp(20px, 2vmax, 28px);
-    margin: 4rem auto;
+    margin: 2rem auto;
     max-width: 70%; /* limite largeur pour meilleure lisibilité */
 }
 
 
 
-.btn_group .button {
-    background-color: var(--btn-color);
-    border: none;
-    color: var(--text-color);
-    padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
-    text-decoration: none;
-    font-family: "Courier New", monospace;
-    display: inline-block;
-    cursor: pointer;
-    font-size: clamp(16px, 2vw, 24px);
-    border-radius: 12px;
-    transition: 0.6s ease;
-    margin: 2rem;
+@media(max-width: 800px){
+  .hideOnMobile{
+    display: none;
+  }
+  .menu-btn{
+    display: block;
+  }
 }
 
-.button:hover {
-  background-color: var(--btn-hcolor);
-  transform: scale(1.1);
-  color: var(--bg-color);
+@media(max-width: 400px){
+  .sidebar{
+    width: 100%;
+  }
+
 }
-
-
