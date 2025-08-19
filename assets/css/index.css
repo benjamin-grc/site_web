@@ -7,7 +7,6 @@ body {
   font-family: "Courier New", monospace;
 }
 
-
 .typewrite {
     font-weight: normal;
     color: var(--text-color);
@@ -17,11 +16,14 @@ body {
 
 
 .pr1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: justify;
     color: var(--text-color);
-    font-size: clamp(20px, 2vmax, 30px);
-    margin: 3rem auto;
-    max-width: 85%; /* limite largeur pour meilleure lisibilité */
+    font-size: clamp(20px, 2vmax, 28px);
+    margin: 4rem auto;
+    max-width: 70%; /* limite largeur pour meilleure lisibilité */
 }
 
 
