@@ -1,52 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <!-- Page d'accueil -->
-  <url>
-    <loc>https://benjamingarcia.fr/</loc>
-    <lastmod>2025-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
 
-  <!-- Page projets -->
-  <url>
-    <loc>https://benjamingarcia.fr/pages/projects/projects.html</loc>
-    <lastmod>2025-08-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<url>
+  <loc>https://benjamingarcia.fr/</loc>
+  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://benjamingarcia.fr/pages/projects/projects.html</loc>
+  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://benjamingarcia.fr/pages/about/about.html</loc>
+  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://benjamingarcia.fr/index.html</loc>
+  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://benjamingarcia.fr/assets/docs/triangle-pascal.pdf</loc>
+  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://benjamingarcia.fr/assets/docs/formulaire-proba.pdf</loc>
+  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-  <!-- Page à propos -->
-  <url>
-    <loc>https://benjamingarcia.fr/pages/about/about.html</loc>
-    <lastmod>2025-08-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Page 404 (facultatif, certains SEO l’ignorent) -->
-  <url>
-    <loc>https://benjamingarcia.fr/404.html</loc>
-    <lastmod>2025-08-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
-  </url>
-
-  <!-- Documents PDF (optionnel) -->
-  <url>
-    <loc>https://benjamingarcia.fr/assets/docs/formulaire-proba.pdf</loc>
-    <lastmod>2025-08-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://benjamingarcia.fr/assets/docs/triangle-pascal.pdf</loc>
-    <lastmod>2025-08-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
 
 </urlset>
-
