@@ -1,7 +1,7 @@
 body {
     
     text-align: center;
-    background-color: #b74242;     
+    background-color: var(--btn-hcolor);     
     margin: 0;
     height: 100vh;
     display: grid;
@@ -12,21 +12,21 @@ body {
 
 h1 {
     font-size: clamp(30px, 8vw, 70px); /* minimum 36px, max 70px, adapté à la largeur */
-    -webkit-text-fill-color: #ffd6b6;
-    -webkit-text-stroke: 3px #5c2626;
+    -webkit-text-fill-color: var(--bg-color);
+    -webkit-text-stroke: 3px var(--text-color);
 }
 
 h2 {
     font-size: clamp(24px, 6vw, 50px);
-    color: #ffd6b6;
+    color: var(--bg-color);
     font-weight: normal;
 }
 
 
 .button {
-    background-color: #ea7362;
+    background-color: var(--btn-color);
     border: none;
-    color: #5c2626;
+    color: var(--text-color);
     padding: 1rem 2rem;          /* unités relatives plus adaptées */
     text-align: center;
     text-decoration: none;
@@ -42,7 +42,7 @@ h2 {
 
 
 .button:hover {
-  background-color: #b74242;
-  color: #ffd6b6;
+  background-color: var(--btn-hcolor);
+  color: var(--bg-color);
   transform: scale(1.1);
 }

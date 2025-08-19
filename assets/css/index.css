@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: #ffd6b6;
+  background-color: var(--bg-color);
   text-align: center;
   padding-top: clamp(5em, 10vw, 10em); /* s’adapte à la taille écran */
   font-family: "Courier New", monospace;
@@ -10,7 +10,7 @@ body {
 
 .typewrite {
     font-weight: normal;
-    color: #5c2626;
+    color: var(--text-color);
     font-size: clamp(24px, 8vw, 50px);
     text-decoration: none;
 }
@@ -18,7 +18,7 @@ body {
 
 .pr1 {
     text-align: justify;
-    color: #5c2626;
+    color: var(--text-color);
     font-size: clamp(20px, 2vmax, 30px);
     margin: 3rem auto;
     max-width: 85%; /* limite largeur pour meilleure lisibilité */
@@ -27,9 +27,9 @@ body {
 
 
 .btn_group .button {
-    background-color: #ea7362;
+    background-color: var(--btn-color);
     border: none;
-    color: #5c2626;
+    color: var(--text-color);
     padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
     text-align: center;
     text-decoration: none;
@@ -43,9 +43,9 @@ body {
 }
 
 .button:hover {
-  background-color: #b74242;
+  background-color: var(--btn-hcolor);
   transform: scale(1.1);
-  color: #ffd6b6;
+  color: var(--bg-color);
 }
 
 

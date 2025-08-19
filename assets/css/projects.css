@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: #ffd6b6;
+    background-color: var(--bg-color);
     font-family: "Courier New";
     display: flex;              /* active Flexbox */
     flex-direction: column;     /* empile verticalement les éléments */
@@ -14,7 +14,7 @@ body {
 h1 {
     text-align: center;
     font-weight: normal;
-    color : #5c2626;
+    color : var(--text-color);
     font-size: 36px;
     text-decoration: none; 
     font-family : "Courier New";
@@ -27,15 +27,15 @@ h1 {
     font-size: 30px;
     text-decoration: none;
     font-weight: normal;
-    color : #5c2626;
+    color : var(--text-color);
     transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
     border-radius: 12px;
     padding: 5px 10px;
     }
 
 .link:hover {
-  color: #ffd6b6;
-  box-shadow: inset 800px 0 0 0 #b74242;;
+  color: var(--bg-color);
+  box-shadow: inset 800px 0 0 0 var(--btn-hcolor);;
 }
 
 
@@ -44,7 +44,7 @@ p {
     font-size: 22px;
     text-justify: inter-word;
     text-align: justify;
-    color : #b74242;
+    color : var(--btn-hcolor);
 }
 
 
@@ -76,8 +76,8 @@ p {
 
 .btn-retour {
     display: inline-block;
-    background: #ea7362;
-    color: #ffd6b6;
+    background: var(--btn-color);
+    color: var(--bg-color);
     padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
     text-decoration: none;
     border-radius: 12px;
@@ -88,7 +88,7 @@ p {
 }
 
 .btn-retour:hover {
-  background: #b74242;
-  color: #ffd6b6;
+  background: var(--btn-hcolor);
+  color: var(--bg-color);
   transform: scale(1.1);
 }

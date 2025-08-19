@@ -1,5 +1,5 @@
 body {
-    background-color:#ffd6b6;
+    background-color:var(--bg-color);
     padding-top: 5em;
     font-family : "Courier New", monospace;
 }
@@ -17,7 +17,7 @@ body {
     font-size: clamp(24px, 6vw, 40px); /* adaptable selon largeur écran */
     text-align: center;
     font-weight: normal;
-    color: #5c2626;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ body {
 p {
     font-size: clamp(16px, 3vmax, 28px);
     text-align: justify;
-    color : #5c2626;
+    color : var(--text-color);
     margin-bottom: 1.5rem;
 }
 
@@ -55,7 +55,7 @@ p {
     font-size: clamp(20px, 4vw, 40px); /* adaptable selon largeur écran */
     text-align: left;
     font-weight: normal;
-    color: #5c2626;
+    color: var(--text-color);
     text-decoration: none;
     
 
@@ -76,15 +76,15 @@ p {
 
     margin: 0;
     font-size: 14px;
-    color: #5c2626;
+    color: var(--text-color);
 
     }
 
 
 #copier-btn {
-    background-color: #ea7362;
+    background-color: var(--btn-color);
     border: none;
-    color: #5c2626;
+    color: var(--text-color);
     padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
     text-decoration: none;
     font-family: "Courier New", monospace;
@@ -97,9 +97,9 @@ p {
 }
 
 #copier-btn:hover {
-  background-color: #b74242;
+  background-color: var(--btn-hcolor);
   transform: scale(1.1);
-  color: #ffd6b6;
+  color: var(--bg-color);
 }
 
 
@@ -108,7 +108,7 @@ footer {
     margin-top: 3em;
     margin-bottom: 3em;
     padding-top: 1.5em;
-    border-top: 2px solid #5c2626; /* trait de séparation */
+    border-top: 2px solid var(--text-color); /* trait de séparation */
 }
 
 
@@ -116,8 +116,8 @@ footer {
 
 .btn-retour {
     display: inline-block;
-    background: #ea7362;
-    color: #ffd6b6;
+    background: var(--btn-color);
+    color: var(--bg-color);
     padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
     text-decoration: none;
     border-radius: 12px;
@@ -128,8 +128,8 @@ footer {
 }
 
 .btn-retour:hover {
-  background: #b74242;
-  color: #ffd6b6;
+  background: var(--btn-hcolor);
+  color: var(--bg-color);
   transform: scale(1.05);
 }
 
