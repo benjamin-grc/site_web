@@ -7,6 +7,35 @@ body {
   font-family: "Courier New", monospace;
 }
 
+#theme-switch{
+    
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    
+}
+
+#theme-switch svg{
+  fill: var(--text-color) /* Pour choisir la couleur des logos*/
+}
+#theme-switch svg:last-child{
+  display: none;
+}
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+.darkmode #theme-switch svg:last-child{
+  display: block;
+}
 
 .typewrite {
     font-weight: normal;
