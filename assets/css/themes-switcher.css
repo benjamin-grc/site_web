@@ -1,0 +1,38 @@
+#theme-switch{
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    position: fixed;
+    transform: scale(1); /* état normal */
+    top: 20px;
+    right: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* transition pour plusieurs propriétés */
+  }
+  
+#theme-switch:hover{
+    transform: scale(1.30); /* état au survol */
+    color: var(--bg-color);
+    background-color: var(--btn-hcolor);
+  
+}
+
+#theme-switch svg{
+    fill: var(--text-color) /* Pour choisir la couleur des logos*/
+  }
+#theme-switch svg:last-child{
+    display: none;
+  }
+.darkmode #theme-switch svg:first-child{
+    display: none;
+  }
+.darkmode #theme-switch svg:last-child{
+    display: block;
+
+}
