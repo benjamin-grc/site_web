@@ -31,7 +31,6 @@ body {
     border: none;
     color: var(--text-color);
     padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
-    text-align: center;
     text-decoration: none;
     font-family: "Courier New", monospace;
     display: inline-block;
