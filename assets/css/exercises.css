@@ -42,7 +42,8 @@ p {
 
 .exo{
     display: flex;
-    border: 5px solid;
+    border: 3px solid;
+    border-color: var(--btn-color);
     padding: 22px;
     border-radius: 12px;
     flex-direction: column;
