@@ -14,13 +14,35 @@
     <link rel="stylesheet" href="../../assets/css/projects.css" />
     <link rel="stylesheet" href="../../assets/css/themes.css" />
     <link rel="stylesheet" href="../../assets/css/themes-switcher.css" />
+    <link rel="stylesheet" href="../../assets/css/nav-bar.css" />
+
     
     <script src="../../assets/js/script.js"></script>
+    <script src="../../assets/js/nav-bar.js"></script>
     <script type="text/javascript" src="../../assets/js/darkmode.js" defer></script>
 
 </head>
 <body>
     <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>             
+                <li><a href="projects.html">Projets</a></li>             
+                <li><a href="https://www.youtube.com/channel/UCs2f9mSdZyXT38t6weiu-7w" target = "_blank">Youtube</a>  </li>  
+                <li><a href="https://github.com/benjamin-grc" target = "_blank">GitHub</a> </li>           
+                <li><a href="../about/about.html">Moi</a> </li>
+                
+            </ul>
+    
+            <ul>
+                <li><a href="../../index.html"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li> 
+                <li class="hideOnMobile"><a href="projects.html">Projets</a></li>             
+                <li class="hideOnMobile"><a href="https://www.youtube.com/channel/UCs2f9mSdZyXT38t6weiu-7w" target = "_blank">Youtube</a>  </li>  
+                <li class="hideOnMobile"><a href="https://github.com/benjamin-grc" target = "_blank">GitHub</a> </li>           
+                <li class="hideOnMobile"><a href="../about/about.html">Moi</a> </li>
+                <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
         
         <button id="theme-switch">
         
@@ -29,17 +51,13 @@
     
         </button>
 
-
-        <h1>
-        Des trucs que j'ai écrit.
-        </h1>
-
-
     </header>
 
-
-        <a href="../../index.html" class="btn-retour">Menu</a>
-
+    <h1>
+        Des trucs que j'ai écrit.
+    </h1>
+    
+    <div class="upper-container">
     <div class = "container">
         <img src='../../assets/images/blaise-pascal.jpg'>
         <h2>
@@ -77,7 +95,7 @@
     <div class = "container">
         <img src=''>
         <h2>
-            <a class = "link" href="exercises/exercises.html">Exercices en vrac</a>
+            <a class = "link" href="exercises/exercises.html">Page en dévelopement</a>
         </h2>
         <p>
         Ceci est un text Ceci est un text Ceci est un text Ceci est un text Ceci est un text Ceci est un text
@@ -96,6 +114,7 @@
         @ Ceci est un text Ceci est un text Ceci est un text Ceci est un text Ceci est un text Ceci est un text
         </p>
 
+    </div>
     </div>
   
     <footer>

@@ -1,6 +1,5 @@
 body {
     background-color:var(--bg-color);
-    padding-top: 5em;
     font-family : "Courier New", monospace;
 }
 
@@ -9,7 +8,7 @@ body {
 .container {
     max-width: 900px;   /* largeur maximale */
     width: 90%;         /* prend 90% de l’écran si plus petit */
-    margin: 0.8rem auto;  /* centré horizontalement, marge verticale */
+    margin: 60px auto;  /* centré horizontalement, marge verticale */
 }
 
 
@@ -103,34 +102,6 @@ p {
 }
 
 
-footer {  
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    padding-top: 1.5em;
-    border-top: 2px solid var(--text-color); /* trait de séparation */
-}
 
-
-
-
-.btn-retour {
-    display: inline-block;
-    background: var(--btn-color);
-    color: var(--bg-color);
-    padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
-    text-decoration: none;
-    border-radius: 12px;
-    text-decoration: none;
-    font-size: clamp(14px, 2vw, 18px);
-    font-family: "Courier New", monospace;
-    transition: 0.5s ease;
-}
-
-.btn-retour:hover {
-  background: var(--btn-hcolor);
-  color: var(--bg-color);
-  transform: scale(1.05);
-}
 
 

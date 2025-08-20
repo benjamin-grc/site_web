@@ -1,13 +1,14 @@
 body {
     background-color: var(--bg-color);
     font-family: "Courier New";
-    display: flex;              /* active Flexbox */
-    flex-direction: column;     /* empile verticalement les éléments */
-    align-items: center;        /* centre horizontalement tout */
-    padding: 2rem 1rem;         /* marge intérieure sur tous les côtés */
-    gap: 1rem;                  /* espace vertical entre les éléments */
 }
 
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
 
 
 
@@ -27,9 +28,10 @@ h1 {
 p {
     font-size: clamp(16px, 2vmax, 22px); /* texte responsive */
     font-size: 22px;
-    text-justify: inter-word;
-    text-align: justify;
     color : var(--text-color);
+    max-width: 850px;   /* largeur maximale */
+    width: 90%;         /* prend 90% de l’écran si plus petit */
+    margin: 2rem auto;  /* centré horizontalement, marge verticale */
 }
 
 

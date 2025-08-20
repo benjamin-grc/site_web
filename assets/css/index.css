@@ -5,83 +5,21 @@ body {
   background-color: var(--bg-color);
   min-height: 100vh; /* s’adapte à la taille écran */
   font-family: "Courier New", monospace;
-}
-
-nav{
-  background-color: var(--bg-color); 
-  /*backdrop-filter: blur(40px);*/
-}
-
-nav ul{
-  width: 100%;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-nav li{
-  height: 50px;
-}
-
-nav a{
-
-  height: 100%;
-  padding: 0% 30px;
-  text-decoration: none;
-  border-radius: 12px;
-  margin: 2rem 1rem;
-  display: flex;
-  align-items: center;
-  color: var(--text-color);
-  background-color: var(--btn-color);
-  transition: 0.6s ease;
-}
-
-nav a:hover{
-  background-color: var(--btn-hcolor);  
-  color: var(--bg-color);
-  transform: scale(1.2);
-}
-
-.sidebar{
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  background-color: blue 0.8; 
-  backdrop-filter: blur(40px);
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  
 }
 
 
-.sidebar li{
-  width: 100%;
-}
-
-.sidebar a{
-  width: 100%;
-}
-
-.menu-btn{
-  display: none;
-}
-
-.container{
-
+.container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-content: center;
+  justify-content: center; /* centre verticalement */
+  align-items: center;     /* centre horizontalement */
   text-align: justify;
-
+  
+  min-height: calc(100vh - 50px); /* 100% de la hauteur moins la navbar */
+  padding: 1rem;
 }
+
 
 .container h1{
 
@@ -98,7 +36,8 @@ nav a:hover{
 }
 
 
-.pr1 {    
+.pr1 {
+    
     color: var(--text-color);
     font-size: clamp(20px, 2vmax, 28px);
     margin: 2rem auto;
@@ -107,18 +46,3 @@ nav a:hover{
 
 
 
-@media(max-width: 800px){
-  .hideOnMobile{
-    display: none;
-  }
-  .menu-btn{
-    display: block;
-  }
-}
-
-@media(max-width: 400px){
-  .sidebar{
-    width: 100%;
-  }
-
-}
