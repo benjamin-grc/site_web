@@ -33,7 +33,7 @@ h2 {
     display: inline-block;
     cursor: pointer;
     font-size: clamp(16px, 2vw, 24px); /* taille responsive */
-    font-family: "Courier New";
+    font-family: var(--font-family);
     border-radius: 12px;
     transition: 0.7s;
     margin: 1rem auto;           /* centré horizontalement */

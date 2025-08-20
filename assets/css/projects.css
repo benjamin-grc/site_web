@@ -3,7 +3,7 @@
 
 body {
     background-color: var(--bg-color);
-    font-family: "Courier New";
+    font-family: var(--font-family);
 }
 
 
@@ -15,7 +15,7 @@ h1 {
     color : var(--text-color);
     font-size: 36px;
     text-decoration: none; 
-    font-family : "Courier New";
+    font-family : var(--font-family);
     margin-bottom: 50px;
     }
 

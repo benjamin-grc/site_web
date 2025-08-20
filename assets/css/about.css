@@ -1,6 +1,6 @@
 body {
     background-color:var(--bg-color);
-    font-family : "Courier New", monospace;
+    font-family : var(--font-family), monospace;
 }
 
 
@@ -86,7 +86,7 @@ p {
     color: var(--text-color);
     padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
     text-decoration: none;
-    font-family: "Courier New", monospace;
+    font-family: var(--font-family), monospace;
     display: inline-block;
     cursor: pointer;
     font-size: clamp(16px, 2vw, 24px);

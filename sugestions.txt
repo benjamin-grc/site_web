@@ -1,4 +1,0 @@
-
--faire un meilleur menu de navigation pour se balader dans les page
--centraliser les style des bouttons dans un seul css
-
