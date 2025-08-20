@@ -9,32 +9,37 @@
 
 <url>
   <loc>https://benjamingarcia.fr/</loc>
-  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <lastmod>2025-08-20T10:27:57+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://benjamingarcia.fr/pages/projects/projects.html</loc>
-  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <loc>https://benjamingarcia.fr/index.html</loc>
+  <lastmod>2025-08-20T10:27:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://benjamingarcia.fr/pages/about/about.html</loc>
-  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <lastmod>2025-08-20T10:27:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://benjamingarcia.fr/index.html</loc>
-  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://benjamingarcia.fr/pages/projects/projects.html</loc>
+  <lastmod>2025-08-20T10:27:57+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://benjamingarcia.fr/assets/docs/triangle-pascal.pdf</loc>
-  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <lastmod>2025-08-20T10:27:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://benjamingarcia.fr/assets/docs/formulaire-proba.pdf</loc>
-  <lastmod>2025-08-18T16:20:11+00:00</lastmod>
+  <lastmod>2025-08-20T10:27:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://benjamingarcia.fr/pages/projects/exercises/exercises.html</loc>
+  <lastmod>2025-08-20T10:27:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
