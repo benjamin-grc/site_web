@@ -19,6 +19,7 @@
     <script src="../../../assets/js/script.js"></script>
     <script type="text/javascript" src="../../../assets/js/nav-bar.js" defer></script>
     <script type="text/javascript" src="../../../assets/js/darkmode.js" defer></script>
+    <script type="text/javascript" src="../../../assets/js/show-solution.js" defer></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
 
@@ -59,23 +60,48 @@
         <h1>
         Page en cours de développement
         </h1>
-
-       <div class="exos">
-        <p>
-        Ceci est un test un test du module mathjax. \( \int_a^bf(t)dt = F(b) - F(a)\)
-        </p>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro corrupti alias rerum eius ipsum adipisci libero delectus fugiat. Perferendis placeat maiores quidem ipsa rem quod modi sapiente in ad possimus.
-        </p>
-       <div class="solution">
-        <p></p>            
-
-       </div>
-
+    
+       <div class="exo">
+            <div class="enonce">
+                <p>
+                Ceci est un test un test du module mathjax. \( \int_a^bf(t)dt = F(b) - F(a)\)
+                </p>
+    
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro corrupti alias rerum eius ipsum adipisci libero delectus fugiat.
+                </p>
+            </div>
+    
+            <div class="btn-solution-container">
+                <button class="btn-solution">Afficher la solution</button>
+            </div>
+            
+            <div class="solution" style="display: none;">
+                <p>
+                    Ceci est la solution Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>            
+            </div>
         </div>
-
-    </div>    
+    
+        <div class="exo">
+            <div class="enonce">
+                <p>
+                Deuxième exercice avec la même logique.
+                </p>
+            </div>
+    
+            <div class="btn-solution-container">
+                <button class="btn-solution">Afficher la solution</button>
+            </div>
+            
+            <div class="solution" style="display: none;">
+                <p>
+                    Solution du deuxième exo !
+                </p>            
+            </div>
+        </div>
+    </div>   
+    
 
 
 </body>

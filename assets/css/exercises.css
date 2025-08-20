@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--bg-color);
     font-family: var(--font-family);
 }
 
 .main-container{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +38,36 @@ p {
     color : var(--text-color);
     max-width: 850px;   /* largeur maximale */
     width: 90%;         /* prend 90% de l’écran si plus petit */
-    margin: 2rem auto;  /* centré horizontalement, marge verticale */
 }
 
+.exo{
+    display: flex;
+    border: 5px solid;
+    padding: 22px;
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 2rem;       
+    width: 90%;          /* même largeur */
+    max-width: 850px;    /* limite max */
+    margin-bottom: 40px; /* espace entre les exos */
+}
+
+.btn-solution{
+    font-size: clamp(10px, 2vw, 20px);
+    border: none;
+    border-radius: 12px;
+    padding: clamp(10px, 2vw, 15px) clamp(20px, 4vw, 32px);
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    transition: 0.8s ease;
+
+}
+
+.btn-solution:hover{
+    background-color: var(--btn-hcolor);  
+    color: var(--bg-color);
+    cursor: pointer;
+    transform: scale(1.089);
+}
 
