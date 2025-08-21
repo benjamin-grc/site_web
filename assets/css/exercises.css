@@ -72,3 +72,7 @@ p {
     transform: scale(1.089);
 }
 
+footer {
+    color: var(--text-color);
+    text-align: center;
+}
