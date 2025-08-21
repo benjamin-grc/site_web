@@ -75,4 +75,9 @@ p {
 footer {
     color: var(--text-color);
     text-align: center;
+    position: fixed; /* reste toujours en bas */
+    bottom: 0;
+    left: 0;
+    width: 100%;     /* prend toute la largeur */
+    padding: 10px;
 }
