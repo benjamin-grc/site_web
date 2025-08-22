@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
 
 
     <title>Ressources - Exercises - Benjamin Garcia </title>
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../../../assets/css/themes.css" />
     <link rel="stylesheet" href="../../../assets/css/themes-switcher.css" />
     <link rel="stylesheet" href="../../../assets/css/nav-bar.css" />
-    
+
     <script src="../../../assets/js/script.js"></script>
     <script type="text/javascript" src="../../../assets/js/nav-bar.js" defer></script>
     <script type="text/javascript" src="../../../assets/js/darkmode.js" defer></script>
@@ -23,89 +23,138 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
 
-</head>
-<body>
+  </head>
+  <body>
     <header>
 
-        <nav>
-            <ul class="sidebar">
-                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>             
-                <li><a href="../projects.html">Projets</a></li>             
-                <li><a href="https://www.youtube.com/channel/UCs2f9mSdZyXT38t6weiu-7w" target = "_blank">Youtube</a>  </li>  
-                <li><a href="https://github.com/benjamin-grc" target = "_blank">GitHub</a> </li>           
-                <li><a href="../../about/about.html">Moi</a> </li>
-                
-            </ul>
-    
-            <ul>
-                <li><a href="../../../index.html"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li> 
-                <li class="hideOnMobile"><a href="../projects.html">Projets <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M146.67-160q-26.34 0-46.5-20.17Q80-200.33 80-226.67v-506.66q0-26.34 20.17-46.5Q120.33-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67H452.33l-66.66-66.66h-239v506.66l100-373.33H940L834.33-209.67q-6.66 24.67-24.5 37.17Q792-160 766.67-160h-620Zm70-66.67H770l80-306.66H296.67l-80 306.66Zm0 0 80-306.66-80 306.66Zm-70-440v-66.66 66.66Z"/></svg></a></li>             
-                <li class="hideOnMobile"><a href="https://www.youtube.com/channel/UCs2f9mSdZyXT38t6weiu-7w" target = "_blank">Youtube <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M382-306.67 653.33-480 382-653.33v346.66ZM480-80q-82.33 0-155.33-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.67T80-480q0-83 31.5-156t85.83-127q54.34-54 127.34-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82.33-31.5 155.33-31.5 73-85.5 127.34Q709-143 636-111.5T480-80Zm0-66.67q139.33 0 236.33-97.33t97-236q0-139.33-97-236.33t-236.33-97q-138.67 0-236 97-97.33 97-97.33 236.33 0 138.67 97.33 236 97.33 97.33 236 97.33ZM480-480Z"/></svg></a>  </li>  
-                <li class="hideOnMobile"><a href="https://github.com/benjamin-grc" target = "_blank">GitHub<svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m380.67-340.67 48-48.33-91-91L428-570.33l-48-48.34L241.33-480l139.34 139.33Zm198.66 0L718.67-480 579.33-619.33l-48 48.33 91 91-91 91 48 48.33ZM186.67-120q-27 0-46.84-19.83Q120-159.67 120-186.67v-586.66q0-27 19.83-46.84Q159.67-840 186.67-840h586.66q27 0 46.84 19.83Q840-800.33 840-773.33v586.66q0 27-19.83 46.84Q800.33-120 773.33-120H186.67Zm0-66.67h586.66v-586.66H186.67v586.66Zm0-586.66v586.66-586.66Z"/></svg></a> </li>           
-                <li class="hideOnMobile"><a href="../../about/about.html"> Moi <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M479.93-446.67q-55.26 0-94.26-39.06-39-39.07-39-94.34 0-55.26 39.06-94.26 39.07-39 94.34-39 55.26 0 94.26 39.06 39 39.07 39 94.34 0 55.26-39.06 94.26-39.07 39-94.34 39Zm-.01-66.66q27.75 0 47.25-19.42 19.5-19.43 19.5-47.17 0-27.75-19.42-47.25-19.43-19.5-47.17-19.5-27.75 0-47.25 19.42-19.5 19.43-19.5 47.17 0 27.75 19.42 47.25 19.43 19.5 47.17 19.5ZM480-60 120-280v-400l360-220 360 220v400L480-60Zm0-78.33L640.33-236q-34.66-25.33-75.83-38-41.17-12.67-84.5-12.67T395.5-274q-41.17 12.67-75.83 38L480-138.33ZM256-275q48.67-36.67 105.67-57.5T480-353.33q61.33 0 118.33 20.83T704-275l69.33-41v-326.49L480-822 186.67-642.49V-316L256-275Zm224-205.67Z"/></svg></a> </li>
-                <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-            </ul>
-    
-        </nav>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>             
+          <li><a href="../projects.html">Projets</a></li>             
+          <li><a href="https://www.youtube.com/channel/UCs2f9mSdZyXT38t6weiu-7w" target = "_blank">Youtube</a>  </li>  
+          <li><a href="https://github.com/benjamin-grc" target = "_blank">GitHub</a> </li>           
+          <li><a href="../../about/about.html">Moi</a> </li>
 
-    
+        </ul>
+
+        <ul>
+          <li><a href="../../../index.html"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></a></li> 
+          <li class="hideOnMobile"><a href="../projects.html">Projets <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M146.67-160q-26.34 0-46.5-20.17Q80-200.33 80-226.67v-506.66q0-26.34 20.17-46.5Q120.33-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67H452.33l-66.66-66.66h-239v506.66l100-373.33H940L834.33-209.67q-6.66 24.67-24.5 37.17Q792-160 766.67-160h-620Zm70-66.67H770l80-306.66H296.67l-80 306.66Zm0 0 80-306.66-80 306.66Zm-70-440v-66.66 66.66Z"/></svg></a></li>             
+          <li class="hideOnMobile"><a href="https://www.youtube.com/channel/UCs2f9mSdZyXT38t6weiu-7w" target = "_blank">Youtube <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M382-306.67 653.33-480 382-653.33v346.66ZM480-80q-82.33 0-155.33-31.5-73-31.5-127.34-85.83Q143-251.67 111.5-324.67T80-480q0-83 31.5-156t85.83-127q54.34-54 127.34-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82.33-31.5 155.33-31.5 73-85.5 127.34Q709-143 636-111.5T480-80Zm0-66.67q139.33 0 236.33-97.33t97-236q0-139.33-97-236.33t-236.33-97q-138.67 0-236 97-97.33 97-97.33 236.33 0 138.67 97.33 236 97.33 97.33 236 97.33ZM480-480Z"/></svg></a>  </li>  
+          <li class="hideOnMobile"><a href="https://github.com/benjamin-grc" target = "_blank">GitHub<svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m380.67-340.67 48-48.33-91-91L428-570.33l-48-48.34L241.33-480l139.34 139.33Zm198.66 0L718.67-480 579.33-619.33l-48 48.33 91 91-91 91 48 48.33ZM186.67-120q-27 0-46.84-19.83Q120-159.67 120-186.67v-586.66q0-27 19.83-46.84Q159.67-840 186.67-840h586.66q27 0 46.84 19.83Q840-800.33 840-773.33v586.66q0 27-19.83 46.84Q800.33-120 773.33-120H186.67Zm0-66.67h586.66v-586.66H186.67v586.66Zm0-586.66v586.66-586.66Z"/></svg></a> </li>           
+          <li class="hideOnMobile"><a href="../../about/about.html"> Moi <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M479.93-446.67q-55.26 0-94.26-39.06-39-39.07-39-94.34 0-55.26 39.06-94.26 39.07-39 94.34-39 55.26 0 94.26 39.06 39 39.07 39 94.34 0 55.26-39.06 94.26-39.07 39-94.34 39Zm-.01-66.66q27.75 0 47.25-19.42 19.5-19.43 19.5-47.17 0-27.75-19.42-47.25-19.43-19.5-47.17-19.5-27.75 0-47.25 19.42-19.5 19.43-19.5 47.17 0 27.75 19.42 47.25 19.43 19.5 47.17 19.5ZM480-60 120-280v-400l360-220 360 220v400L480-60Zm0-78.33L640.33-236q-34.66-25.33-75.83-38-41.17-12.67-84.5-12.67T395.5-274q-41.17 12.67-75.83 38L480-138.33ZM256-275q48.67-36.67 105.67-57.5T480-353.33q61.33 0 118.33 20.83T704-275l69.33-41v-326.49L480-822 186.67-642.49V-316L256-275Zm224-205.67Z"/></svg></a> </li>
+          <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+
+      </nav>
+
+
     </header>
 
     <div class="main-container">
-        <h1>
+      <h1>
         Page en cours de développement
-        </h1>
-    
-       <div class="exo">
-            <div class="enonce">
-                <p>
-                Ceci est un test un test du module mathjax. \( \int_a^bf(t)dt = F(b) - F(a)\)
-                </p>
-    
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro corrupti alias rerum eius ipsum adipisci libero delectus fugiat.
-                </p>
-            </div>
-    
-            <div class="btn-solution-container">
-                <button class="btn-solution">Afficher la solution</button>
-            </div>
-            
-            <div class="solution" style="display: none;">
-                <p>
-                    Ceci est la solution Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                </p>            
-            </div>
+      </h1>
+
+      <div class="exo">
+        <div class = "exo-title">
+          <h1>Olympiade du pacifique asiatique 1996</h1>
         </div>
-    
-        <div class="exo">
-            <div class="enonce">
-                <p>
-                Deuxième exercice avec la même logique.
-                </p>
-            </div>
-    
-            <div class="btn-solution-container">
-                <button class="btn-solution">Afficher la solution</button>
-            </div>
-            
-            <div class="solution" style="display: none;">
-                <p>
-                    Solution du deuxième exo !
-                </p>            
-            </div>
+
+        <div class="enonce">
+          <p>
+            Soient deux entiers positifs \(m\) et \(n\) vérifiant \(n \le m\). Prouver : 
+
+            \[ 2^n \cdot n! \le \frac{(m+n)!}{(m-n)!} \le (m^2+m)^n \]
+
+          </p>
+
         </div>
+
+        <div class="btn-solution-container">
+          <button class="btn-solution">Afficher la solution</button>
+        </div>
+
+        <div class="solution" style="display: none;">
+          <p>
+            On commence par montrer la première inégalité : 
+          </p>
+          <p>
+            \[
+            \begin{align} 
+            \frac{(m+n)!}{(m-n)!} &= (m+n)(m+n-1) \cdots (m-n+1) \\ 
+            &\ge 2n \cdot (2n-1) \cdots 1 \\
+            &\ge 2n \cdot (2n-2) \cdots 2 = 2^n n!
+            \end{align}
+            \] 
+          </p>
+
+          <p>
+            Supposons maintenant \( m \) fixé et montrons l'autre inégalité par récurrence sur \( n \) :
+          </p>
+
+          <p>
+            <strong>Cas de base (\( n = 1 \)) :</strong>  
+            \[
+            \frac{(m+1)!}{(m-1)!} = m(m+1) = m^2 + m
+            \]
+          </p>
+
+          <p>
+            <strong>Hypothèse de récurrence :</strong>  
+            Supposons que pour un entier \( k \) avec \( 1 \le k \le m-1 \) :  
+            \[
+            \frac{(m+k)!}{(m-k)!} \le (m^2 + m)^k
+            \]
+          </p>
+
+          <p>
+            <strong>Pas de récurrence :</strong>  
+            Alors pour \( k+1 \) :  
+            \[
+            \begin{align} 
+            \frac{(m+k+1)!}{(m-k-1)!} 
+            &= (m+k+1)(m-k) \cdot \frac{(m+k)!}{(m-k)!} \\
+            &\le (m^2 + m) \cdot (m^2 + m)^k \\
+            &= (m^2 + m)^{k+1}
+            \end{align}
+            \]
+          </p>
+
+          <p>
+            Par conséquent, l'inégalité est vérifiée pour tout \( n \) par récurrence.
+          </p> 
+        </div>
+      </div>
+
+      <div class="exo">
+        <div class="enonce">
+          <p>
+            Deuxième exercice avec la même logique.
+          </p>
+        </div>
+
+        <div class="btn-solution-container">
+          <button class="btn-solution">Afficher la solution</button>
+        </div>
+
+        <div class="solution" style="display: none;">
+          <p>
+            Solution du deuxième exo !
+          </p>            
+        </div>
+      </div>
     </div>   
-    
+
     <button id="theme-switch" aria-label="Change the theme">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
     </button>
 
 
     <footer>
-        <small>Copyright © 2025 benjamingarcia.fr. Tous droits réservés.</small>
+      <small>Copyright © 2025 benjamingarcia.fr. Tous droits réservés.</small>
     </footer>
 
-</body>
+  </body>
 </html>
