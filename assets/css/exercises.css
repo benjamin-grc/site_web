@@ -53,6 +53,18 @@ p {
     margin-bottom: 40px; /* espace entre les exos */
 }
 
+   
+.exo-title {
+  display: flex;
+}
+
+.exo-title h1 {
+  font-size: clamp(10px, 2vw, 20px);
+  margin: 0;
+  font-style: italic;
+}  
+
+
 .btn-solution{
     font-size: clamp(10px, 2vw, 20px);
     border: none;
