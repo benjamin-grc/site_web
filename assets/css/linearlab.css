@@ -58,6 +58,13 @@ p {
   margin-left: 30px;
 }
 
+.btn-container{
+  width: 850px;   /* largeur maximale */
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
 .preview {
     text-align: center;
     margin: 30px 0;
@@ -70,8 +77,8 @@ p {
   }
 
   .download-btn {
-    min-width: 180px;  /* largeur minimale */
-    height: 45px;      /* bouton un peu plus grand */
+    min-width: 215px;  /* largeur minimale */
+    height: 60;     
 
     text-decoration: none;
     border-radius: 12px;
@@ -81,15 +88,14 @@ p {
     color: var(--text-color);
     background-color: var(--btn-color);
     transition: 0.6s ease;
-    margin-top: 12px;
-    padding: 0 12px;
-    gap: 5px;
+
+
   }
 
   .download-btn:hover{
     background-color: var(--btn-hcolor);  
     color: var(--bg-color);
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
 
   .download-btn svg {
